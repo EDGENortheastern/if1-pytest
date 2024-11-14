@@ -84,3 +84,20 @@ source venv/bin/activate
 pip install pytest
 ```
 
+### Useful Commands
+
+- **Deactivate the virtual environment**:
+
+```bash
+deactivate
+```
+
+
+### Step 3: Write and Run Tests
+
+1. Write your test files, typically named `test_<function_name>.py`.
+2. Run the tests with `pytest`:
+
+```bash
+pytest
+```
