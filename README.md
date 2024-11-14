@@ -54,4 +54,33 @@ pip install pytest
 ```
 
 
+#### macOS/Linux Setup
+
+1. Make sure you have installed Python 3.7 or higher. Check your version by running:
+
+```bash
+python3 --version
+```
+
+
+2. Create a virtual environment in your project folder.
+
+
+```bash
+python3 -m venv venv
+```
+
+
+3. Activate the virtual environment.
+
+```bash
+source venv/bin/activate
+```
+
+
+4. Install `pytest` in the virtual environment.
+
+```bash
+pip install pytest
+```
 
